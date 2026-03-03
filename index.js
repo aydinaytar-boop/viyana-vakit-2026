@@ -42,3 +42,7 @@ app.get("/viyana", (req, res) => {
 app.listen(PORT, () => {
     console.log("Viyana Namaz API çalışıyor: " + PORT);
 });
+
+app.get("/", (req, res) => {
+  res.send("Viyana 2026 API çalışıyor");
+});
